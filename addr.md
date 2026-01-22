@@ -1,20 +1,24 @@
 # Adresse en binaire
-## IPv4 --> binaire
+## IPv4
+### Binaire
 - 00001010.00100001.01000000.10010101
 ### Décimal
 - 10.33.64.149
 
-## Masque --> binaire
+## Masque
+### Binaire
 - 11111111.11111111.11110000.00000000
 ### Décimal
 - 255.255.240.0
 
-## Broadcast --> binaire
+## Broadcast
+### Binaire
 - 00001010.00100001.01001111.11111111
 ### Décimal
 - 10.33.79.255
 
-## Adresse réseau --> binaire
+## Adresse réseau
+### Binaire
 - 00001010.00100001.01000000.00000000
 ### Décimal
 - 10.33.64.0
