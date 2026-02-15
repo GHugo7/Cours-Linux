@@ -146,3 +146,11 @@ openssl dgst -sha256 -verify rsa_public.pem -signature contrat.sig contrat.txt
 echo "Ajout d'une ligne." >> contrat.txt
 openssl dgst -sha256 -verify rsa_public.pem -signature contrat.sig contrat.txt
 ```
+![](img/verify_modif.png)
+
+## 3. Questions
+#### 1. Que se passe-t-il après modification du fichier ?
+- Après la modification du fichier la signature échoue
+
+#### 2. Pourquoi ?
+- Car la signature est basé sur le hash du fichier donc si le contenu change le hash change par la même occasion 	donc la signature ne correspond plus
